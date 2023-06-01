@@ -91,11 +91,11 @@ for i, review_box in enumerate(review_list):
     # MongoDB 저장
     #  - JSON type(Dict) 전달
     data = {
-    "title": title,
-    "review": review,
-    "score": score,
-    "writer":writer,
-    "regdate":review_date
+        "title": title,
+        "review": review,
+        "score": score,
+        "writer": writer,
+        "regdate": review_date
     }
     add_review(data)
 
